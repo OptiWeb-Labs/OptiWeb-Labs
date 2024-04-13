@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptiWeb-Labs SEO and Web Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="script.js" defer></script>
+    <style>
+        #main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #top{
+            background-color: #cccbc8;
+            display: flex;
+            align-items: center;
+            margin-top: 2vh;
+            margin-left: 2vw;
+            margin-right: 3vw;
+            border-radius: 10px;
+        }
+        #hText{
+            margin-right: 1vw;
+        }
+        #mainTitle{
+            text-align: left;
+            margin-left: 0;
+        }
+        h1 {
+            font-size: calc(15px + 2vmax);
+            line-height: calc(3vh + 1.5vmax);
+            font-weight: bolder;
+        
+        }
+        .titleSubText{
+            font-size: calc(10px + 1.25vmax);
+            line-height: calc(1.25vh + 1.5vmax);
+        }
+        #webDesignImg{
+            width: 34vw;
+            height: auto;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+            margin-right: 2vw;
+            margin-left: 2vw;
+        }
+        #mainTextDiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            color: #cccbc8;
+            width: 90vw;
+        }
+        #mainTextHeader{
+            font-size: calc(15px + 1.5vmax);
+            line-height: calc(1.75vh + 1.75vmax);
+        }
+        #ulDiv{
+            font-size: calc(8px + 1.2vmax);
+            line-height: calc(1.25vh + 1.2vmax);
+            width: 80vw;
+        }
+        #benefitsUl{
+            list-style: none;
+            padding: 0;
+            margin-left: 2vw;
+            margin-right: 2vw;
+        }
+        .benefitLi{
+            margin-bottom: 2vh;
+        }
+        .benefitLi::before{
+            content: "\25B6";
+        }
+        #afterUlDiv{
+            font-size: calc(8px + 1.2vmax);
+            line-height: calc(1.25vh + 1.2vmax);
+            margin-right: 1vw;
+        }
+        .contactBtn{
+            display: inline-flex;
+            justify-content: center;
+            font-weight: bold;
+            font-size: calc(5px + .75vmax);
+            border-radius: 10px;
+            padding: 1vh;
+            margin-bottom: .5vh;
+            background-color: #57aba3;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            body{
+               overflow-x: hidden; 
+            }
+            .hTop {
+                width: 100vw;
+                padding: 0;
+            }
+            #hLogo{
+                margin-left: 2vw;
+            }
+            #contact{
+                margin-right: 2vw;
+            }
+            #top{
+                flex-direction: column-reverse;
+                align-items: center;
+                width: 90vw;
+            }
+            #mainTitle{
+                text-align: center;
+            }
+            #hText{
+                text-align: center;
+                margin-left: 2vw;
+            }
+            #imgDiv{
+                display: flex;
+                justify-content: center;
+            }
+            #webDesignImg{
+                margin-bottom: 4vh;
+                width: 50%;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="hTop">
+        <a id="hLogo" href="index.html">
+          <img src="images/coolLogoGood.jpg" alt="optiWeb Labs logo" id="logoImg">
+          <h1 id="cName">OptiWeb-Labs</h1>
+        </a>
+        <div class="hLinks">
+          <a class="SEO" href="seo.html">SEO</a>
+          <a id="Web Design" href="webdesign.html">Web-Design</a>
+          <a id="newletter" href="newsletter.html">NewsLetter </a>
+          <a href="contact.html" id="contact">Lets Talk</a>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+        <div id="top">
+            <div id="imgDiv">
+                <img src="images/webDesign.jpg" id="webDesignImg" alt="Image of a computer surrounded by colored pencils and art tools to showcase the power of rich web design.">
+            </div>
+            <div id="hText">
+                <div id="titleDiv">
+                    <h1 id="mainTitle">Attract, Engage, Convert: Powerful Web Design Solutions for Small Businesses</h1>
+                </div>
+                <div id="titleSubTextDiv">
+                    <h2 class="titleSubText">In today's digital age, your website is your storefront window to the world. It's the first impression you make on potential customers, and a strong first impression is crucial for attracting, engaging, and converting them into loyal patrons.</h2>
+                    <h2 class="titleSubText">At OptiWeb-Labs, we understand the unique challenges faced by small businesses. We're a small business ourselves, and we take pride in partnering with fellow entrepreneurs to build custom websites that truly capture their essence.</h2>
+                </div>
+            </div>
+        </div>  
+        <div id="mainTextDiv">
+            <h2 id="mainTextHeader">Crafting a Competitive Edge: The Power of Custom Web Design</h2>
+            <div id="ulDiv">
+                <ul id="benefitsUl">
+                    <li class="benefitLi"><u>Beyond Templates:</u> We create fully responsive websites that adapt seamlessly to any device, ensuring a flawless user experience on desktops, tablets, and smartphones. This is crucial for capturing today's mobile-first audience.</li>
+                    <li class="benefitLi"><u>SEO Advantage:</u> Our custom-built pages allow us to change meta tags, alt attributes and include specialized tools to track your page's analytics. Allowing us to fully optimize your site for search engines, increasing your visibility in local search results and driving organic traffic to your website. This means more potential customers discover your business online.</li>
+                    <li class="benefitLi"><u>Your Vision, Our Expertise:</u> We take the time to understand your brand identity, target audience, and specific needs. We don't just build websites; we craft digital experiences that perfectly reflect your company's ethos and aesthetic.</li>
+                </ul>
+            </div>
+            <div id="afterUlDiv">
+                <div id="textDiv1">
+                    <p id="text1">We believe in building long-term relationships with our clients. That's why we go the extra mile to understand your business goals and aspirations. By becoming an extension of your team, we can translate your vision into a powerful web design solution that attracts, engages, and converts visitors into loyal customers.</p>
+                </div>
+                <div id="textDiv2">
+                    <p id="text2">Ready to unlock the transformative potential of a custom website?  <button class="contactBtn">Contact us</button> today for a free consultation and let's discuss how we can help your small business thrive online.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contactFormDiv">
+        *******Make Sure Form Works*********<form action="https://api.slapform.com/optiweblabs@gmail.com?slap_redirect=************************************************************************************************" method="post" id="contactForm">
+          <input type="text" name="slap_honey" hidden>
+          <h2 id="contactFormHeader">Ready to Supercharge Your Website? Request a free SEO & web design consultation</h2>
+          <div id="contactName">
+            <label for="name" class="normalLabel">Name:</label>
+            <input type="text" name="name" pattern="[A-Za-z]" id="name" maxlength="64" placeholder="John Doe">
+          </div>
+          <div id="email">
+            <label for="email" class="normalLabel">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com" required>
+          </div> 
+          <div id="radioDiv">
+            <label id="radioText">Master SEO & web design strategies. Expert tips, straight to your inbox monthly. Ready to level up?</label>
+              <div id="radioY">
+                <label for="yes">
+                  <input type="radio" class="newsletter" name="newsletter" required checked="checked">
+                  Yes
+                </label>
+              </div>
+              <div id="radioN">
+                <label for="no">
+                  <input type="radio" class="newsletter" pattern="[A-Za-z0-9]{10}" name="newsletter">
+                  I don't enjoy learning
+                </label>
+              </div>
+          </div> 
+          <div id="textAreaDiv">
+            <label for="businessExp" id="taLabel">
+              Tell us about your business! Briefly describe your offerings and what you hope to achieve
+               through SEO and web design:
+            </label>
+            <textarea name="businessExp" id="businessExp" cols="60" rows="10" placeholder="I own an Italian restaurant right here in Dutchess County. I aim to create a beautiful, fully custom webpage to showcase our fantastic food. The webpage must work perfectly on all devices and our goal is to increase awareness and popularity. We would like to do some basic search engineoptimization to increase traffic, especially from people in our geographic area."></textarea>  
+          </div>
+          <button id="submitBtn" type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="footer">
+        <div id="companyStuff">
+          <div>Dutchess County, NY</div>
+          <div>© 2024 OptiWeb-Labs - All rights reserved.</div>
+        </div>
+        <div id="companyLinks">
+          <a href="https://www.linkedin.com/company/optiweb-labs/" class="socialLinks">LinkedIn</a>
+          <a href="https://github.com/OptiWeb-Labs" class="socialLinks">Github</a>
+          <a href="https://twitter.com/OptiWebLabs" class="socialLinks">X</a>
+          <a href="https://www.instagram.com/optiweb_labs/" class="socialLinks">Instagram</a>
+        </div>
+      </div>
+    </body>
+</html>
