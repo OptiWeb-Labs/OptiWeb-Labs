@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-90YQHMFQVB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-90YQHMFQVB');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OptiWeb-Labs SEO and Web Design</title>
@@ -111,13 +120,13 @@
           <label id="radioText">Master SEO & web design strategies. Expert tips, straight to your inbox monthly. Ready to level up?</label>
             <div id="radioY">
               <label for="yes">
-                <input type="radio" class="newsletter" name="newsletter" required checked="checked">
+                <input type="radio" value="yes" class="newsletter" name="newsletter" required checked="checked">
                 Yes
               </label>
             </div>
             <div id="radioN">
               <label for="no">
-                <input type="radio" class="newsletter" pattern="[A-Za-z0-9]{10}" name="newsletter">
+                <input type="radio" value="no" class="newsletter" pattern="[A-Za-z0-9]{10}" name="newsletter">
                 I don't enjoy learning
               </label>
             </div>
