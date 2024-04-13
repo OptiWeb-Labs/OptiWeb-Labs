@@ -79,6 +79,7 @@ a{
   padding-right: 2vw;
   background-color: #cccbc8;
   height: 10.2vh;
+  min-height: 10.2vh;
 }
 
 
