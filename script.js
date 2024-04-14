@@ -8,9 +8,11 @@ contactBtns.forEach(contactBtn => {
 });
 
 const hamMenu = document.querySelector(".hamMenu");
-const offScreenMenu = document.getElementById("offScreenUl");
+const offScreenUl = document.getElementById("offScreenUl");
+const offScreenMenu = document.querySelector(".offScreenMenu");
 
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
+  offScreenUl.classList.toggle("active");
 });
