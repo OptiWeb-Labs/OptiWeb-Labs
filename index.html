@@ -15,22 +15,41 @@
     <title>OptiWeb-Labs SEO and Web Design</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="header">
-      <div class="hTop">
-        <a id="hLogo" href="index.html">
-          <img src="images/coolLogoGood.jpg" alt="optiWeb Labs logo" id="logoImg">
-          <h1 id="cName">OptiWeb-Labs</h1>
-        </a>
-        <div class="hLinks">
-          <a class="SEO" href="seo.html">SEO</a>
-          <a id="Web Design" href="webdesign.html">Web-Design</a>
-          <a id="newletter" href="newsletter.html">NewsLetter </a>
-          <a href="contact.html" id="contact">Lets Talk</a>
+      <nav>
+        <div class="hTop">
+            <a id="hLogo" href="index.html">
+              <img src="images/coolLogoGood.jpg" alt="optiWeb Labs logo" id="logoImg">
+              <h1 id="cName">OptiWeb-Labs</h1>
+            </a>
+            <div class="hLinks" id="myhLinks">
+              <ul class="hLinksUl" id="bigUl">
+                <li><a class="SEO" href="seo.html">SEO</a></li>
+                <li><a id="Web Design" href="webdesign.html">Web-Design</a></li>
+                <li><a id="newletter" href="newsletter.html">NewsLetter </a></li>
+                <li><a href="contact.html" id="contact">Lets Talk</a></li>
+              </ul>
+            </div>
+            <div class="offScreenMenu">
+              <ul class="hLinksUl" id="offScreenUl">
+                <li><a class="SEO" href="seo.html">SEO</a></li>
+                <li><a id="Web Design" href="webdesign.html">Web-Design</a></li>
+                <li><a id="newletter" href="newsletter.html">NewsLetter </a></li>
+                <li><a href="contact.html" id="contact">Lets Talk</a></li>
+              </ul>
+            </div>
+            <div class="hamMenu">
+                <span class="hamSpan"></span>
+                <span class="hamSpan"></span>
+                <span class="hamSpan"></span>
+            </div>
         </div>
-      </div>
+      </nav>
+
       <div class="hContent">
         <div id="hLeft">
           <h2 id="hTitle">Unleash Your Growth Potential: Search Engine Optimization & Web Design Solutions for Small Businesses</h2>
@@ -91,7 +110,7 @@
       <div id="innerAboutMe">
           <diV id="aboutTitleAndImg">
             <h2 id="aboutTitle">Meet the CEO:</h2>
-            <img src="" alt="" id="aboutMeImg">
+            <img src="images/me.jpg" alt="A picture of the OptiWeb-Labs CEO" id="aboutMeImg">
           </diV>
           <div id="aboutMeText">
             I'm Kole, the founder and CEO here at OptiWeb-Labs. My passion for computers and technology goes beyond just 
