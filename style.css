@@ -32,7 +32,7 @@ body {
   align-items: center;
   gap: 2vw;
   text-decoration: none;
-  left: 2vw;
+  left: 2.5vw;
   position: relative;
 }
 
@@ -526,8 +526,6 @@ a:hover{
   .hTop{
     height: 8vh;
     width: 100vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
     overflow: hidden;
     max-width: 100%;
   }
@@ -704,6 +702,10 @@ a:hover{
     font-size: calc(4px + 1vmax);
     font-weight: bold;
     text-align: center;
+  }
+  .hContactImg{
+    width: 5vw;
+
   }
   #hBtnAndImg{
     gap: 2vh;
