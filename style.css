@@ -78,14 +78,14 @@ body {
 }
 
 
-a{
+.hLinks a{
   color: #645995;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.25rem;
   display: block;
 }
-a:hover{
+.hLinks a:hover{
   background-color: #645995;
   color: #57aba3;
   border-radius: 10px;
