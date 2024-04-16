@@ -98,6 +98,11 @@ body {
   background-color: #57aba3;
   background-color: none;
   max-height: 8vh;
+  border-radius: 10px;
+  padding-bottom: .5vh;
+  padding-top: .5vh;
+  padding-left: .5vw;
+  padding-right: .5vw;
 }
 #contact{
   display: flex;
@@ -430,6 +435,10 @@ body {
   margin: 1vh;
   color: #cccbc8;
   font-size: calc(5px + 1vmax);
+  text-decoration: none;
+}
+.socialLinks:hover{
+  color: #645995;
 }
 #footer {
   height: auto;
