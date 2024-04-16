@@ -391,14 +391,23 @@ a:hover{
 }
 
 #submitBtn{
+  background-color: #645995;
+  color: #cccbc8;
+
   width: 8vw;
   height: 4vh;
   border-radius: 1vw;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: white-rabbit, sans-serif;
   font-size: 1vmax;
   text-align: center;
   cursor: pointer;
+}
+
+#submitBtn:hover{
+  background-color: #cccbc8;
+  color: #645995;
+  font-weight: bolder;
 }
 
 #companyStuff{

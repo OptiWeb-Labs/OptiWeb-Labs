@@ -150,26 +150,29 @@
             </div>
             <div id="newsletterForm">
                 <form name="newsletter" method="post" id="contactForm" data-netlify="true">
-                <div id="email">
-                    <label for="email" class="normalLabel">Email:</label>
-                    <input type="email" name="email" id="emailInput" placeholder="example@example.com" required>
-                </div> 
-                <div id="radioDiv">
-                    <label id="radioText">Master SEO & web design strategies. Expert tips, straight to your inbox monthly. Ready to level up?</label>
-                    <div id="radioY">
-                        <label for="yes">
-                        <input type="radio" value="yes" class="newsletter" name="newsletter" required checked="checked">
-                        Yes
-                        </label>
+                  <div id="email">
+                      <label for="email" class="normalLabel">Email:</label>
+                      <input type="email" name="email" id="emailInput" placeholder="example@example.com" required>
+                  </div> 
+                  <div id="radioDiv">
+                      <label id="radioText">Master SEO & web design strategies. Expert tips, straight to your inbox monthly. Ready to level up?</label>
+                      <div id="radioY">
+                          <label for="yes">
+                          <input type="radio" value="yes" class="newsletter" name="newsletter" required checked="checked">
+                          Yes
+                          </label>
+                      </div>
+                      <div id="radioN">
+                          <label for="no">
+                          <input type="radio" value="no" class="newsletter" pattern="[A-Za-z0-9]{10}" name="newsletter">
+                          I don't enjoy learning
+                          </label>
+                      </div>
                     </div>
-                    <div id="radioN">
-                        <label for="no">
-                        <input type="radio" value="no" class="newsletter" pattern="[A-Za-z0-9]{10}" name="newsletter">
-                        I don't enjoy learning
-                        </label>
-                    </div>
-                </div>
-                </div>
+                    <button id="submitBtn" type="submit">Submit</button>
+                  </form>
+
+              </div>
             </div>
           </div>
         <div id="footer">
