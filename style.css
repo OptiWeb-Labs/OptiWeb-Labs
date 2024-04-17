@@ -812,7 +812,7 @@ body {
     line-height: calc(7px + 1vmax);
   }
   #radioY, #radioN{
-    font-size: calc(5px + .75vmax);
+    font-size: calc(7px + .75vmax);
     width: 50vw;
   }
   #name, #email{
